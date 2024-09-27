@@ -3,9 +3,9 @@ Minha pagina Github
 
 Projetos
 1. Organizador de Cartas do Magic
-    - Catologar todos as cartas de uma determinada edição
+    - Catalogar todos as cartas de uma determinada edição
     - Guardar as minhas cartas atuais
-    - exibi todas as informações diponiveis referente a carta ou edição
+    - exibi todas as informações disponíveis referente a carta ou edição
     - Conectar o arquivo com uma pagina Web
 2. Dicionario
      - Criar um "Dicionario" de pesca com intuito de aprender e memorizar
