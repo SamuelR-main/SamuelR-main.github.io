@@ -4,3 +4,53 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+:root{
+    --backgroud-color-test: blue;
+    --header-width: 1140px;
+    --header-height: 4.5em;
+    --logo-sizing: 60px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    height: var(--header-height);
+    width: var(--header-width);
+    background-color: var(--backgroud-color-test);
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0em 0em 0em 1em;
+    flex-direction: row;
+    list-style: none;
+    height: var(--header-height);
+}
+#header-div-left{
+    display: flex;
+    width: 50%;
+}
+#header-div-right{
+    display: flex;
+    width: 20%;
+}
+.header-div-lista-left{
+    display: flex;
+}
+#header-logoAbleton{
+    width: var(--logo-sizing);
+}
+@media only screen and (max-width:1400px){
+    :root{
+        --header-width: 1320px;
+        --backgroud-color-test: red;
+    }
+}
